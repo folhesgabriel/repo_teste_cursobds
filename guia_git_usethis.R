@@ -1,12 +1,13 @@
 ##guia basico para o usethis
+#para estudantes da UFPA
 #rladies guia de uso do github no R https://beatrizmilz.github.io/RLadies-Git-RStudio-2019/#44
 
 #1. criar um projeto
 usethis::create_project('caminho_nome-projeto')
 
-#2.cconfigurar usuario no githun
-usethis::use_git_config(user.name = 'folhesgabriel',
-                        user.email = 'pisagabriel09@gmail.com')
+#2.configurar usuario no github
+usethis::use_git_config(user.name = 'github_username',
+                        user.email = 'github_email')
 
 #3. criar token de acesso a api do github
 usethis::create_github_token()
@@ -23,5 +24,9 @@ usethis::use_git()
 #6. faz o commit do repo local para o github
 usethis::use_github()
 
-#6.criar um readme
+#7.criar um readme
 usethis::use_readme_md()
+
+
+
+
